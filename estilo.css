@@ -67,6 +67,10 @@ header{
     
  }
 
+ #texto h3, h2 {
+   text-align: center;
+ }
+
  #dp {
     border: 3px solid #f1c812;
     padding: 5px;
