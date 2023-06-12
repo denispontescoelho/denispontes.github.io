@@ -1,0 +1,140 @@
+  
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+  
+  body {
+
+    background-color: rgb(128, 120, 128, 0.1);  
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+     
+  }
+  .logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 30px;
+
+  }
+  
+header{
+    display: block;
+    
+    
+}
+  #menu {
+            background-color: rgb(90, 83, 83);
+            padding: 10px;
+            border-radius: 05px;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        #menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: right;
+            overflow: hidden;
+            align-items: center;
+            gap: 10px;
+            
+            
+        }
+        #menu li {
+            float: right;
+            background-color: black;
+            border-radius: 15px;
+         
+        }
+        #menu li a {
+            display: block;
+            color: #ffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 12px;
+            border-radius: 15px;
+            background-color: black;
+        }
+        #menu li a:hover {
+            background-color: #f1c812;
+        }
+
+#texto {
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    
+ }
+
+ #dp {
+    border: 3px solid #f1c812;
+    padding: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    text-align: justify;
+    justify-content: center;
+    height: 190px;
+ }
+
+ #dp p{
+    padding-top: 20px;
+ }
+
+ .eu {
+    height: 190px;
+    width: 180px;
+    float: left;
+    padding-right: 35px;
+    /*padding-bottom: 50px;*/
+    border-radius: 15px;
+ }
+
+   #jv {
+    border: 3px solid #f1c812;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: justify;
+    justify-content: center;
+    margin-top: 10px;
+ }
+  
+ .java {
+    height: 85px;
+    width: 95px;
+    float: left;
+    padding-right: 35px;
+    /*padding-bottom: 50px;*/
+    border-radius: 15px;
+ }
+
+ #dev {
+    border: 3px solid #f1c812;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: justify;
+    justify-content: center;
+    margin-top: 10px;
+ }
+
+ .sales {
+    width: 220px;
+    height: 120px;
+    float: left;
+    padding-right: 35px;
+ }
+
+ #rdp {
+            background-color: rgb(90, 83, 83);
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 05px;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+ }
+
+ #rdp p{
+    color: #ffff;
+    justify-items: center;
+ }
